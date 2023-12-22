@@ -1,9 +1,4 @@
 # Pi-hole persistant data
 
-pihole/etc-pihole/versions
-pihole/etc-pihole/setupVars.conf.update.bak
-pihole/etc-pihole/setupVars.conf
-pihole/etc-pihole/pihole-FTL.db
-pihole/etc-pihole/pihole-FTL.conf
-pihole/etc-pihole/gravity.db
-pihole/etc-pihole/gravity_old.db
+pihole/etc-pihole
+
