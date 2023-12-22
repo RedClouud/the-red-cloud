@@ -8,8 +8,8 @@ PIHOLE_BASE="${PIHOLE_BASE:-$(pwd)}"
 # Note: FTLCONF_LOCAL_IPV4 should be replaced with your external ip.
 docker run -d \
     --name pihole \
-    -p 5300:53/tcp -p 5300:53/udp \
-    -p 8000:80 \
+    -p 53:53/tcp -p 53:53/udp \
+    -p 80:80 \
     -e TZ="Europe/London" \
     -v "$(pwd)/etc-pihole:/etc/pihole" \
     -v "$(pwd)/etc-dnsmasq.d:/etc/dnsmasq.d" \
