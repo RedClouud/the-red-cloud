@@ -4,6 +4,11 @@
 
 password=$1
 
+if [ -z "$password" ]; then
+    echo "Please provide a password for the web interface"
+    exit 1
+fi
+
 # Note: FTLCONF_LOCAL_IPV4 should be replaced with your external ip.
 docker run -d \
     --name pihole \
