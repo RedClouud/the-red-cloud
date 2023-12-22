@@ -14,9 +14,13 @@ docker run -d \
     --name pihole \
     -p 53:53/tcp -p 53:53/udp \
     -p 80:80 \
-    -e TZ="Europe/London" \
     -v "./etc-pihole:/etc/pihole" \
     -v "./etc-dnsmasq.d:/etc/dnsmasq.d" \
-    --restart=unless-stopped \
+    -e TZ="Europe/London" \
     -e WEBPASSWORD=$password \
-    pihole/pihole:latest
+    --restart=unless-stopped \
+    pihole/pihole:latest \
+    > /dev/null
+
+echo "Pi-hole started"
+exit 0
