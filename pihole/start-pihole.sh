@@ -11,12 +11,12 @@ timezone="Europe/London"
 mkdir -p "etc-pihole"
 mkdir -p "etc-dnsmasq.d"
 
-docker run -d \
+sudo docker run -d \
     --name pihole \
     -p 53:53/tcp -p 53:53/udp \
     -p 80:80 \
-    -v "./etc-pihole:/etc/pihole" \
-    -v "./etc-dnsmasq.d:/etc/dnsmasq.d" \
+    -v "$(pwd)/etc-pihole:/etc/pihole" \
+    -v "$(pwd)/etc-dnsmasq.d:/etc/dnsmasq.d" \
     -e TZ=$timezone \
     -e WEBPASSWORD=$password \
     --restart=unless-stopped \
