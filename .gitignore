@@ -1,4 +1,7 @@
 # Pi-hole persistant data
 
+pihole/etc-dnsmasq.d
 pihole/etc-pihole
 
+# Other
+.DS_Store
