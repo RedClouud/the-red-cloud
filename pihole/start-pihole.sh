@@ -9,7 +9,6 @@ if [ -z "$password" ]; then
     exit 1
 fi
 
-# Note: FTLCONF_LOCAL_IPV4 should be replaced with your external ip.
 docker run -d \
     --name pihole \
     -p 53:53/tcp -p 53:53/udp \
