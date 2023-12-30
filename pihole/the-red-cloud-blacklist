@@ -2,14 +2,14 @@
 
 # Channel 4
 # Source: https://www.reddit.com/r/pihole/comments/115fpng/comment/j92codd
-ads.channel4.com
-cdn.http.anno.channel4.com
-cdn.ss.anno.channel4.com
-channel4.com.112.2o7.net
-channel4.com.sc.omtrdc.net
-channel4.com.ssl.sc.omtrdc.net
-ic.channel4.com
-monitor.channel4.com
-sexperienceuk.channel4.com
-webstat.channel4.com
-webstats.channel4.com 
+0.0.0.0 ads.channel4.com
+0.0.0.0 cdn.http.anno.channel4.com
+0.0.0.0 cdn.ss.anno.channel4.com
+0.0.0.0 channel4.com.112.2o7.net
+0.0.0.0 channel4.com.sc.omtrdc.net
+0.0.0.0 channel4.com.ssl.sc.omtrdc.net
+0.0.0.0 ic.channel4.com
+0.0.0.0 monitor.channel4.com
+0.0.0.0 sexperienceuk.channel4.com
+0.0.0.0 webstat.channel4.com
+0.0.0.0 webstats.channel4.com 
