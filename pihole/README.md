@@ -44,7 +44,6 @@ ak-jos-c4assets-com.akamaized.net
 ### Channel 4
 
 ```
-cdn.http.anno.channel4.com
 fvc-p06.channel4.com
 ingest-euir.inf.videologygroup.com
 2a7e9.v.fwmrm.net
